@@ -7,7 +7,7 @@
     "build": "node build.js",
     "build-prod": "node build.js",
     "compile": "node build.js",
-    "start": "ws -c lws.config.js --static.maxage 1 -d .",
+    "start": "ws -c lws.config.js -d .",
     "bench": "cd webdriver-ts && cross-env LANG=\"en_US.UTF-8\" node dist/benchmarkRunner.js",
     "results": "cd webdriver-ts && npm run results",
     "bench-all": "cd webdriver-ts && npm run bench && npm run results",
